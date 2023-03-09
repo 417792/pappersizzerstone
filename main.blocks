@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="y7fSIWRvRyGkM5n_c}$w">x</variable></variables><block type="pxt-on-start" id="Jgj6rk[fplT[dIt+2ZJL" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="A!K52z%|@?Ajrk;.T:HB"><value name="ID"><shadow type="math_number_minmax" id="$!WewR7{igawqy(F|XhR"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">254</field></shadow></value></block></statement></block><block type="device_forever" id="gk9-~(Ii[M`7ysO_Y]8:" x="202" y="17"></block><block type="device_button_event" id="a76~Y0r~8V)q@A;m2}:2" x="66" y="200"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="mx@cFFC,v`,[~Tt4f~da"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="variables_set" id="bJ7eo(a3#OC7EH`]PNEj"><field name="VAR" id="y7fSIWRvRyGkM5n_c}$w">x</field><value name="VALUE"><shadow type="math_number" id="H@](m=mumc`)J`bJt[D4"><field name="NUM">8</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="tto5*NPBu539T_dm_z_1" x="333" y="206"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="*KC0{p==/*ble8/{RM/3"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field><next><block type="variables_set" id="6_8-;w037St?f$Z}$TH4"><field name="VAR" id="y7fSIWRvRyGkM5n_c}$w">x</field><value name="VALUE"><shadow type="math_number" id="e~A[!Idxn`;91=W`OyVG"><field name="NUM">13</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="nm{NMvIJ^pK,yTUy:dgE" x="566" y="216"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="r!Uk0!*S1BM3zKa[!5G0"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="variables_set" id="3o`J|,Jeuo75!q7QG]*E"><field name="VAR" id="y7fSIWRvRyGkM5n_c}$w">x</field><value name="VALUE"><shadow type="math_number" id="rk+y`B8*{@=9*HUYE(F["><field name="NUM">21</field></shadow></value></block></next></block></statement></block></xml>
