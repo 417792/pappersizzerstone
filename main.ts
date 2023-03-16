@@ -11,11 +11,11 @@ radio.onReceivedNumber(function (receivedNumber) {
 function win_or_lose () {
     if (myturn == yourturn) {
         basic.showIcon(IconNames.EigthNote)
-    } else if (myturn == 3 && yourturn == 9) {
+    } else if (myturn == 9 && yourturn == 6) {
         basic.showIcon(IconNames.Yes)
     } else if (myturn == 6 && yourturn == 3) {
         basic.showIcon(IconNames.Yes)
-    } else if (myturn == 9 && yourturn == 6) {
+    } else if (myturn == 3 && yourturn == 9) {
         basic.showIcon(IconNames.Yes)
     } else {
         basic.showIcon(IconNames.No)
@@ -24,7 +24,7 @@ function win_or_lose () {
 input.onButtonPressed(Button.A, function () {
     if (myturn == 0) {
         basic.showIcon(IconNames.Scissors)
-        myturn = 6
+        myturn = 3
         radio.sendNumber(myturn)
     }
 })
@@ -36,14 +36,14 @@ function 設定出值 () {
 input.onButtonPressed(Button.AB, function () {
     if (myturn == 0) {
         basic.showIcon(IconNames.Square)
-        myturn = 3
+        myturn = 9
         radio.sendNumber(myturn)
     }
 })
 input.onButtonPressed(Button.B, function () {
     if (myturn == 0) {
         basic.showIcon(IconNames.SmallSquare)
-        myturn = 9
+        myturn = 6
         radio.sendNumber(myturn)
     }
 })
